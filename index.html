@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-fluid px-1 px-md-4 py-5 mx-auto" id="background">
+        <div class="row d-flex justify-content-center px-3">
+            <div class="card">
+                <div class="search-bar">
+                    <input type="text" id="zip-code" placeholder="Enter ZIP code" />
+                    <button id="search-button">Search</button>
+                </div>
+                <h2 class="ml-auto mr-4 mt-3 mb-0" id="city">City</h2>
+                <p class="ml-auto mr-4 mb-0 med-font" id="weather-description">Weather</p>
+                <h1 class="ml-auto mr-4 large-font" id="temperature">Temperature</h1>
+                <p1 class="ml-auto mr-4 " id="highTemperature">highTemperature</p1>
+                <p2 class="ml-auto mr-4 " id="lowTemperature">lowTemperature</p2>
+
+
+                <p class="time-font mb-0 ml-4 mt-auto" id="time">Time</p>
+                <p class="ml-4 mb-4" id="date">Date</p>
+            </div>
+        </div>
+    </div>
+    <script src="openWeather.js"></script>
+</body>
+</html>
